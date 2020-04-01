@@ -1,35 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <-- <link rel="stylesheet" type="text/css" href="main.css"> -->
-</head>
-<body>
-    <div class="Background">
-        <h1>Community Support</h1>
-        <div class="grid-container" style="align-self: center;">
-            <div class="grid-item">
-                <a class="Description" href="volunteer.html" >Volunteer</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam libero, tempora repellendus doloribus quidem exercitationem iusto officia ratione ipsam a nesciunt ducimus dolorem? Ut aut delectus voluptate dolorum vitae.</p>
-            </div>
-            <div class="grid-item">
-                <!--<img class="image" src='face.png' height="100" width="100" style="margin-bottom:3rem; align-content: center;">-->
-                <a class="Description" href="donate.html" style="text-align: center;">Donate</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laboriosam accusamus nam odit velit delectus cupiditate, corrupti, sed est tempora laudantium molestias suscipit, nulla repudiandae in officia consequuntur vero ad.</p>
-            </div>
-            <div class="grid-item">
-                <!--<img class="image" src='clock.png' height="100" width="100" style="margin-bottom:3rem; align-content: center;">-->
-                <a class="Description" href="need.html" style="margin-top: 10rem;">Need</a>
-                <p class="Paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusantium labore sunt, animi consequuntur quam vitae nisi doloremque temporibus. Nobis, soluta eveniet laborum incidunt unde facere ut? Aliquam, enim repudiandae!</p>
-            </div>
-        </div>
-        <div>
-            <h1 style="position:-webkit-sticky;">Word</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sequi reiciendis ullam cumque provident omnis, eaque, natus cum perferendis, molestias laborum commodi blanditiis fuga sapiente voluptas repellat eum in itaque?</p>
-        </div>
-    </div>
-</body>
-</html>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Community Support</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
+    <div class="Background">
+      <p class="main-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, autem aliquid officiis possimus accusamus sunt dicta dolorem deleniti, deserunt repudiandae reprehenderit? Consequuntur natus, saepe recusandae dolor at laudantium qui alias!</p>
+      <div class="grid-container">
+          <div class="grid-item">
+              <a class="Description" href="volunteer.html" >Volunteer</a>
+              <p class="Paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam libero, tempora repellendus doloribus quidem exercitationem iusto officia ratione ipsam a nesciunt ducimus dolorem? Ut aut delectus voluptate dolorum vitae.</p>
+          </div>
+          <div class="grid-item">
+              <!--<img class="image" src='face.png' height="100" width="100" style="margin-bottom:3rem; align-content: center;">-->
+              <a class="Description" href="donate.html" style="text-align: center;">Donate</a>
+              <p class="Paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laboriosam accusamus nam odit velit delectus cupiditate, corrupti, sed est tempora laudantium molestias suscipit, nulla repudiandae in officia consequuntur vero ad.</p>
+          </div>
+          <div class="grid-item">
+              <!--<img class="image" src='clock.png' height="100" width="100" style="margin-bottom:3rem; align-content: center;">-->
+              <a class="Description" href="need.html" style="margin-top: 10rem;">Need</a>
+              <p class="Paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusantium labore sunt, animi consequuntur quam vitae nisi doloremque temporibus. Nobis, soluta eveniet laborum incidunt unde facere ut? Aliquam, enim repudiandae!</p>
+          </div>
+      </div>
+      <div>
+          <h1 style="position:-webkit-sticky;">Word</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sequi reiciendis ullam cumque provident omnis, eaque, natus cum perferendis, molestias laborum commodi blanditiis fuga sapiente voluptas repellat eum in itaque?</p>
+      </div>
+  </div>
+  </body>
+</html>
