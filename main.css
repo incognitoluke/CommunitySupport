@@ -1,14 +1,41 @@
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: rgb(202, 231, 255);
     padding: 10px;
   }
   
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    background-color: rgba(0, 61, 153, 0.8);
+    border: 5px solid rgba(218, 235, 255, 0.8);
+    padding: 90px;
     font-size: 30px;
     text-align: center;
   }
+
+.grid-container{
+
+}
+
+.grid-item{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.grid-item .Description{
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+
+.Description{
+    font-size: 40pt;
+}
+
+.image{
+    position: absolute;
+}
+
+body{
+    background-color: lightseagreen ;
+}
