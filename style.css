@@ -10,19 +10,44 @@ body{
 }
 nav{
   background: #0082e6;
-  height: 90px;
+  height: 115px;
   width: 100%;
 }
 label.logo{
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
   font-weight: bold;
 }
+
+.image-wide{
+  width: 440px;
+  margin-left: 6rem;
+  margin-top: .4rem;
+}
+
+.image{
+  display: none;
+}
+
+@media (max-width: 945px){
+  .image-wide{
+    display: none;
+  }
+
+  .image{
+  display: inline-block;
+  margin-left: 0rem;
+  width: 210px; 
+  margin-top: .7rem;
+}}
+
+
+
 nav ul{
   float: right;
   margin-right: 20px;
+  margin-top: .9rem;
 }
 nav ul li{
   display: inline-block;
@@ -46,6 +71,7 @@ a.active,a:hover{
   float: right;
   line-height: 80px;
   margin-right: 40px;
+  margin-top: .9rem;
   cursor: pointer;
   display: none;
 }
@@ -124,6 +150,21 @@ section{
   font-size: 20pt;
 }
 
+.main-paragraph{
+  text-align: center;
+  margin-top: 3rem;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  font-size: 18pt;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 30pt;
+  text-align:center;
+  margin-top: 3rem;
+}
+
 @media (max-width: 1270px){
     .grid-container{
         display: table;
@@ -138,7 +179,19 @@ section{
       margin-top: 1rem;
       font-size: 10pt;
     }
+
+    .main-paragraph{
+      text-align: center;
+      margin-top: 2rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      font-size: 13pt;
+    }
   }
 
 
 
+  .Description.active,.Description:hover{
+    background-color: rgb(189, 255, 244);
+    width: auto;
+  }
