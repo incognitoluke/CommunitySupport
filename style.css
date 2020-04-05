@@ -7,6 +7,7 @@
 }
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 nav{
   background: #0082e6;
@@ -47,7 +48,7 @@ label.logo{
 nav ul{
   float: right;
   margin-right: 20px;
-  margin-top: .9rem;
+  margin-top: 2rem;
 }
 nav ul li{
   display: inline-block;
@@ -81,7 +82,7 @@ a.active,a:hover{
 @media (max-width: 952px){
   label.logo{
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 5px;
   }
   nav ul li a{
     font-size: 16px;
@@ -129,8 +130,8 @@ section{
   background-color: rgba(158, 200, 255, 0.8);
   padding: 10px;
   margin: 3rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -195,3 +196,81 @@ section{
     background-color: rgb(189, 255, 244);
     width: auto;
   }
+
+
+  .main-home:hover {
+
+    background-color: #0082e6;
+    
+    box-shadow:none;
+    
+    }
+
+
+  .need-form{
+      
+    }
+
+    .Form-Id{
+      background: rgb(126, 186, 255);
+      width: 450px;
+      height: 1600px;
+      margin-left: 5rem;
+      display: inline-block;
+      float: left;
+      vertical-align: top;
+    }
+
+    .form-content{
+      
+    }
+
+    .soup{
+      margin-top: 9rem;
+      width: 600px;
+      
+
+      
+    }
+
+    .volunteer-body{
+      background-color: rgb(93, 149, 223);
+    }
+
+    .volunteer-form{
+      margin-top: 1rem;
+      height:1650px;
+    }
+
+    @media (max-width:450px){
+      .volunteer-form{
+        width:320px;
+        height:1650px;
+      }
+
+      .Form-Id{
+        width: 320px;
+        height: 1650px;
+        margin-left: 0;
+      }
+    }
+
+    .heading{
+      font-size: 40pt;
+    }
+
+    .heading-2{
+      text-align: center;
+      font-weight: bold;
+      margin-top: 3rem;
+      font-size: 30pt;
+    }
+
+
+    .donation-text{
+      font-weight: bold;
+      color: white;
+      margin-top: 5rem;
+      text-align: center;
+      font-size: 40pt;
+    }
