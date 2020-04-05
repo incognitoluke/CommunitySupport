@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+          <a class="main-home" href="http://communitysupport.online/">
+              <img class="image-wide" src="logo-wide.svg" href="index.html">
+            </a>
+            <a class="main-home" href="http://communitysupport.online/">
+              <img class="image" src="logo.svg" href="index.html">
+            </a>
+        </label>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-title">
+        <h1>Contact</h1>
+    </div>
+
+    <div class="contact-form">
+        <form id="contact-form" method="POST" action="contact-form-handler.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
+</body>
+</html>
