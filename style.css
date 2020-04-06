@@ -317,7 +317,7 @@ section{
       cursor: pointer;
     }
 
-
+    
 
     .footer-bg{
       background-color: rgb(43, 102, 192);
@@ -334,4 +334,18 @@ section{
       text-align: center;
       color: white;
       margin-top: 4.5rem;
+    }
+
+    @media (max-width:650px){
+      .form-control{
+        width: 250px;
+
+      }
+      
+    }
+
+    @media (max-width:1260px){
+      .footer-text{
+        margin-top: 7rem;
+      }
     }
