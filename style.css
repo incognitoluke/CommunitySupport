@@ -243,17 +243,16 @@ section{
       height:1650px;
     }
 
-    @media (max-width:450px){
+    @media (max-width:600px){
       .volunteer-form{
-        width:320px;
-        height:1650px;
+        width:310px;
+        height:1700px;
       }
-
-      .Form-Id{
-        width: 320px;
-        height: 1650px;
-        margin-left: 0;
+      
+      .form-body-text{
+        font-size: 15pt;
       }
+      
     }
 
     .heading{
@@ -348,4 +347,46 @@ section{
       .footer-text{
         margin-top: 7rem;
       }
+    }
+
+    .volunteer-form{
+      position: absolute;
+      vertical-align: top;
+    }
+
+    .form-body-text{
+      text-align: center;
+      margin-left: 45rem;
+      vertical-align: middle;
+      margin-top: 10rem;
+      padding: 10rem;
+      color: white;
+      position: absolute;
+    }
+
+    @media (max-width:1182px){
+      .form-body-text{
+        margin: 1.5rem;
+        padding: 0rem;
+        vertical-align: top;
+        position: relative;
+        text-align: left;
+        width: 250px;
+      }
+      .volunteer-form{
+        position: relative;
+      }
+
+      .Form-Id{
+        background: transparent;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        width: 200px;
+      }
+
+      .form-content{
+        margin: 1.2rem;
+        width: 10px;
+      }
+
     }
